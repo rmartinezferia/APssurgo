@@ -39,5 +39,5 @@ install.packages(c("shiny","leaflet","shinythemes","FedData","maps",
 
 ## Contact
 
-* Questions on code and methodology: [Rafael Martinez-Feria](mailto:rmartine@iastate.edu), Dep. of Agronomy, Iowa State University
-* Questions on methodology:[Sotirios Archontoulis](mailto:sarchont@iastate.edu), Dep. of Agronomy, Iowa State University 
+* Questions about the code and methodology: [Rafael Martinez-Feria](mailto:rmartine@iastate.edu), Dep. of Agronomy, Iowa State University
+* Questions about methodology and collaborations:[Sotirios Archontoulis](mailto:sarchont@iastate.edu), Dep. of Agronomy, Iowa State University 
