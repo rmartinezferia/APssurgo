@@ -6,7 +6,7 @@ This repo contains R code for downloading soils data from [SSURGO database](http
 
 ## Warning
 
-Note that data from SSURGO at a small scale (i.e. field) is essentially unreliable and should be used with caution when setting up the APSIM model. Rather data should be used as "starting-point" and verified against field measurements when available. 
+Note that data from SSURGO at field scale is essentially unreliable and should be used with caution when setting up the APSIM model. Rather, SSURGO data should be used as "starting-point" and verified against field measurements when available. 
 
 ## About the code 
 
