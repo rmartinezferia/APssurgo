@@ -28,7 +28,7 @@ source("R/ssurgo2apsim.R")
 ui <- fluidPage(theme = shinytheme("cosmo"),
   h2(strong("APssurgo:"),em("Get SSURGO data and convert into APSIM '.soil' format")),
   div(
-    p("This tool developed by ",a("R. Martinez-Feria",href="mailto:rmartine@iastate.edu"),
+    p("This tool was developed by ",a("R. Martinez-Feria",href="mailto:rmartine@iastate.edu"),
       "and",a("S.V. Archontoulis",href="mailto:sarchont@iastate.edu"),", Dept. of Agronomy, Iowa State Univerity, Ames, Iowa"),
     style ="margin: 20px"  
   ),

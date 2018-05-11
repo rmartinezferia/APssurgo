@@ -6,9 +6,9 @@ This repo contains R code for downloading soils data from [SSURGO database](http
 
 ## About the code 
 
-The code here relies heavily on the [FedData](https://cran.r-project.org/web/packages/FedData/index.html) package. APSIM parameter set estimation follows the approach described by [Archontoulis et al. (2014, Agron. J. 106(3):1025-1040)](https://dl.sciencesocieties.org/publications/aj/abstracts/106/3/1025?access=0&view=pdf).
+The code behind the tool relies heavily on the [FedData](https://cran.r-project.org/web/packages/FedData/index.html) package. APSIM parameter set estimation follows the approach described by [Archontoulis et al. (2014, Agron. J. 106(3):1025-1040)](https://dl.sciencesocieties.org/publications/aj/abstracts/106/3/1025?access=0&view=pdf).
 
-Before using this function, make sure you have installed the following packages:
+Before using this tool, make sure you have installed the following packages:
 
 ```{r}
 install.packages(c("shiny","leaflet","shinythemes","FedData","maps",
@@ -20,7 +20,7 @@ install.packages(c("shiny","leaflet","shinythemes","FedData","maps",
 * Site name: Unique name to label downloaded data
 * Field extent: North and South as latitude, East and West as longitude.
 * Soil layers: User-defined, in centimeters
-* Crop to be simulated: Needed for definition of soil-crop parameters (e.g. crop_LL, XF)
+* Crop(s) to be simulated: Needed for definition of soil-crop parameters (e.g. crop_LL, XF)
 
 ## Outputs
 
@@ -32,3 +32,7 @@ install.packages(c("shiny","leaflet","shinythemes","FedData","maps",
 
 * Average across soil types: if `TRUE`, then returns only one soil, representing the weighted avergage across all soil types. If `FALSE`, returns all soils
 * Save soil map: if `TRUE` then `.shp` and `.jpg` files of the downloaded soils are saved in the working directory
+
+## Contact
+
+* 
