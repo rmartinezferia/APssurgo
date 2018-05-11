@@ -4,6 +4,10 @@ This repo contains R code for downloading soils data from [SSURGO database](http
 
 ![](tool.png)
 
+## Warning
+
+Note that data from SSURGO at a small scale (i.e. field) is essentially unreliable and should be used with caution when setting up the APSIM model. Rather data should be used as "starting-point" and verified against field measurements when available. 
+
 ## About the code 
 
 The code behind the tool relies heavily on the [FedData](https://cran.r-project.org/web/packages/FedData/index.html) package. APSIM parameter set estimation follows the approach described by [Archontoulis et al. (2014, Agron. J. 106(3):1025-1040)](https://dl.sciencesocieties.org/publications/aj/abstracts/106/3/1025?access=0&view=pdf).
@@ -35,4 +39,5 @@ install.packages(c("shiny","leaflet","shinythemes","FedData","maps",
 
 ## Contact
 
-* 
+* Questions on code and methodology: [Rafael Martinez-Feria](mailto:rmartine@iastate.edu), Dep. of Agronomy, Iowa State University
+* Questions on methodology:[Sotirios Archontoulis](mailto:sarchont@iastate.edu), Dep. of Agronomy, Iowa State University 
