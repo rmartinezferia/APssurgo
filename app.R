@@ -125,7 +125,7 @@ server <- function(input, output, session) {
       SSURGO2APSIM(x3,0.1,
                    site_name = input$myfield,
                    coords = c(input$north,input$west),
-                   crops = tolower(input$mycrops))
+                   crops = tolower(input$myCrops))
       
       # Step 5 Save map
       
