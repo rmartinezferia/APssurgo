@@ -1,4 +1,6 @@
-# APssurgo
+
+# APssurgo 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1467205.svg)](https://doi.org/10.5281/zenodo.1467205)
 
 This repo contains R code for downloading soils data from [SSURGO database](https://websoilsurvey.nrcs.usda.gov) and converting it into [APSIM](https://www.apsim.info/) format. All the code is wrapped in a easy-to-use [shiny app](https://shiny.rstudio.com/). Run the `app.R` file using R studio,  add the needed inputs and click on the "download SSURGO" button.  
 
@@ -40,4 +42,4 @@ install.packages(c("shiny","leaflet","shinythemes","FedData","maps",
 ## Contact
 
 * Questions about the code and methodology: [Rafael Martinez-Feria](mailto:rmartine@iastate.edu), Dep. of Agronomy, Iowa State University
-* Questions about methodology and collaborations:[Sotirios Archontoulis](mailto:sarchont@iastate.edu), Dep. of Agronomy, Iowa State University 
+* Questions about methodology and collaborations: [Sotirios Archontoulis](mailto:sarchont@iastate.edu), Dep. of Agronomy, Iowa State University 
