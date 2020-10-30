@@ -93,7 +93,9 @@ server <- function(input, output, session) {
   observeEvent(input$goDownload, {
     
     withProgress(message = 'Working...', value = 0, {
-      
+
+      if(file.path("EXTRACTIONS",input$myfield) %in% list.dirs("EXTRACTIONS",recursive = F)) stop(paste0("Extraction for '",input$myfield,"' already existst! Choose another name."))
+
     # Step 1 (Down)Loading SSURGO data
     
       incProgress(1/5, detail = "(Down)Loading SSURGO data. May take several minutes.")
