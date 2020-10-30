@@ -29,7 +29,7 @@ moldSSURGO <- function(x, soilLayer_breaks = c(0,10,20,30,100)){
   component <- x$tabular$component
   chorizon <- x$tabular$chorizon
   mapunit <-x$tabular$mapunit
-  watertable <- x$tabular$muaggatt[ , c("musym","wtdepaprjunmin")]
+  watertable <- x$tabular$muaggatt[ , c("musym","wtdepaprjunmin")] %>% mutate(musym = as.character(musym))
   
   majcomp <- component[component$majcompflag == "Yes", c("compname",
                                                          "taxclname",
