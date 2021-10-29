@@ -25,4 +25,4 @@ hydrogroup$slope_code <- as.numeric(row.names(hydrogroup)) # slope groups "0-2",
 hydrogroup %>%
   gather(key="hydrogroup",value="CN2", - slope_code) -> hydrogroup
 
-saveRDS(hydrogroup, "_data/hydrogroup.rds")
+saveRDS(hydrogroup, "R/hydrogroup.rds")
